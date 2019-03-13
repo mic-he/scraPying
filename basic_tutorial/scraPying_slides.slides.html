@@ -13267,7 +13267,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Per esempio:
-<img src="robotstxt.png" alt="title"></p>
+<img src="img/robotstxt.png" alt="title"></p>
 
 </div>
 </div>
@@ -13283,7 +13283,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="https://it.wikipedia.org/wiki/Categoria:Cantanti_trap">https://it.wikipedia.org/wiki/Categoria:Cantanti_trap</a></p>
-<p><img src="trappers.png" alt="title"></p>
+<p><img src="img/trappers.png" alt="title"></p>
 
 </div>
 </div>
@@ -14097,7 +14097,7 @@ Transclusion expansion time report (%,ms,calls,template)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="inspect.png" alt="title"></p>
+<p><img src="img/inspect.png" alt="title"></p>
 
 </div>
 </div>
@@ -14106,7 +14106,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Zoom in:</p>
-<p><img src="inspect_zoom.png" alt="title"></p>
+<p><img src="img/inspect_zoom.png" alt="title"></p>
 
 </div>
 </div>
@@ -14174,7 +14174,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Torniamo alla sorgente:
-<img src="inspect0.png" alt="title"></p>
+<img src="img/inspect0.png" alt="title"></p>
 
 </div>
 </div>
@@ -14183,7 +14183,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Zoom in:
-<img src="inspect0_zoom.png" alt="title"></p>
+<img src="img/inspect0_zoom.png" alt="title"></p>
 
 </div>
 </div>
@@ -14472,7 +14472,7 @@ Transclusion expansion time report (%,ms,calls,template)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="hotels.png" alt="title"></p>
+<p><img src="img/hotels.png" alt="title"></p>
 
 </div>
 </div>
@@ -14481,7 +14481,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In ogni regione i risultati sono distributiti su più pagine:</p>
-<p><img src="abruzzo0.png" alt="title"></p>
+<p><img src="img/abruzzo0.png" alt="title"></p>
 
 </div>
 </div>
@@ -14525,7 +14525,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Per ogni regione, cerchiamo il numero massimo di pagine nella sorgente:</p>
-<p><img src="pagination.png" alt="title"></p>
+<p><img src="img/pagination.png" alt="title"></p>
 
 </div>
 </div>
@@ -14534,7 +14534,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Zoom in:</p>
-<p><img src="pag_zoom.png" alt="title"></p>
+<p><img src="img/pag_zoom.png" alt="title"></p>
 
 </div>
 </div>
@@ -14951,7 +14951,7 @@ Transclusion expansion time report (%,ms,calls,template)
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Per esempio, la settima pagina della region Marche:
 <a href="http://www.elenco-alberghi.it/marche/alberghi-hotels_7.asp">http://www.elenco-alberghi.it/marche/alberghi-hotels_7.asp</a>
-<img src="marche7.png" alt="title"></p>
+<img src="img/marche7.png" alt="title"></p>
 
 </div>
 </div>
@@ -14960,7 +14960,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Zoom in:</p>
-<p><img src="marche7_zoom.png" alt="title"></p>
+<p><img src="img/marche7_zoom.png" alt="title"></p>
 
 </div>
 </div>
@@ -15241,15 +15241,15 @@ Done!
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c1"># this will save one file for each region</span>
 
-<span class="k">for</span> <span class="n">region</span> <span class="ow">in</span> <span class="n">regions_dic</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span> <span class="c1"># cycle through region names in our dictionary</span>
+<span class="c1">#for region in regions_dic.keys(): # cycle through region names in our dictionary</span>
     
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="s2">&quot;w+&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">output_file</span><span class="p">:</span> <span class="c1"># write here, one file per region, then we can cat them all together</span>
+<span class="c1">#    with open(region, &quot;w+&quot;) as output_file: # write here, one file per region, then we can cat them all together</span>
         
-        <span class="n">names</span> <span class="o">=</span> <span class="n">get_names</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="n">regions_dic</span><span class="p">[</span><span class="n">region</span><span class="p">])</span> <span class="c1"># get results</span>
+<span class="c1">#        names = get_names(region, regions_dic[region]) # get results</span>
         
-        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span> <span class="c1"># cycle through names in get_names results</span>
+<span class="c1">#        for name in names: # cycle through names in get_names results</span>
             
-            <span class="n">output_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">name</span><span class="o">+</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span> <span class="c1"># write to file together with EOL</span>
+<span class="c1">#            output_file.write(name+&quot;\n&quot;) # write to file together with EOL</span>
 </pre></div>
 
     </div>
